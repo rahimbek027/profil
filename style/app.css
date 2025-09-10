@@ -26,7 +26,7 @@ body {
   background-color: #212F3D;
   border-radius: 15px;
   box-shadow: 0 4px 40px rgba(0, 0, 0, 0.3);
-  
+  padding: 40px 10px;
   width: 350px;
   transition: transform 0.3s ease;
 }
@@ -72,6 +72,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  
 }
 
 .link {
@@ -86,11 +87,17 @@ body {
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
+  
+
 }
 
 .link-text {
   position: relative;
   z-index: 2;
+  display: flex;
+   align-items: center;
+   gap: 5px;
+ justify-content: center;
 }
 
 .link:hover {
@@ -117,4 +124,9 @@ body {
 
 .link:active {
   transform: scale(0.98);
+}
+
+.tg{
+  width: 25px;
+  height: 25px;
 }
